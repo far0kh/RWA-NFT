@@ -44,16 +44,16 @@ const SubscribeForm = () => {
 
   return (
     <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:pt-16 lg:pt-24 sm:text-center">
-      <h2 className="mb-4 text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl dark:text-white">
+      <h2 className="mb-4 text-3xl tracking-tight font-extrabold sm:text-4xl text-white">
         Stay Connected
       </h2>
-      <p className="mx-auto mb-8 max-w-2xl font-light text-gray-500 md:mb-12 sm:text-xl dark:text-gray-400">
+      <p className="mx-auto mb-8 max-w-2xl font-light md:mb-12 sm:text-xl text-gray-400">
         Submit your email address to subscribe to our newsletter and get the newest updates and exclusive offers.
       </p>
       <form onSubmit={handleSubmit}>
         <div className="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
           <div className="relative w-full">
-            <div className='custom-substack-widget csw-theme bg-green-500 border-green-500'>
+            <div className='custom-substack-widget csw-theme bg-green-600 border-green-600 hover:bg-green-700 hover:border-green-700'>
               <input
                 type="email"
                 name="email"
