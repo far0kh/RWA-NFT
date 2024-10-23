@@ -5,13 +5,21 @@ const Hero = () => {
   return (
     <section className="pt-24">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-        <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
-          <div>
-            <h1 className="text-5xl font-bold text-white mt-6 lg:mt-10 sm:text-6xl xl:text-8xl">
-              Community Driven Film Tokens on Bitcoin
+        <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2 mt-12 md:mt-0" dir="rtl">
+          <div className='flex justify-center'>
+            <img className="w-full max-w-lg" src="/images/artwork.webp" alt="Artwork NFT" />
+          </div>
+
+          <div dir="ltr">
+            <h1 className="text-5xl font-bold text-white mt-6 lg:mt-10 sm:text-6xl md:text-7xl lg:text-[5rem] xl:text-8xl">
+              NFTs for Real-World Arts
             </h1>
-            <p className="mt-6 text-base text-gray-500 lg:mt-10 sm:text-xl">
-              Are you a filmmaker looking for a new way to fund your projects? Or an investor interested in supporting filmmaking through Bitcoin? Introducing our innovative platform that harnesses the power of Bitcoin&apos;s Ordinals and Runes to revolutionize film fundraising.
+            <p className="mt-6 text-base text-slate-500 lg:mt-10 sm:text-xl">
+              Blockchain technology has provided some relief to art
+              galleries and artists in overcoming the challenges faced by
+              them. This has been made possible through the emergence of
+              Phygital NFTs, which have opened up a new avenue for the
+              art world to make their physical art more accessible and liquid.
             </p>
             <br />
             <div className="flex gap-4">
@@ -29,13 +37,9 @@ const Hero = () => {
                   </button> */}
             </div>
           </div>
-
-          <div>
-            <img className="w-full" src="/images/collect-illustration.svg" alt="" />
-          </div>
         </div>
       </div>
-      <div className="px-4 py-10 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
+      {/* <div className="px-4 py-10 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
         <span className="font-semibold text-gray-400 uppercase">Powered by</span>
         <div className="flex justify-center items-center text-gray-500 ">
           <a
@@ -45,7 +49,7 @@ const Hero = () => {
             <img src="/images/btcsl.webp" alt="Bitcoin Startup Lab logo" className="h-11" />
           </a>
         </div>
-      </div>
+      </div> */}
     </section>
   )
 }

@@ -11,21 +11,26 @@ const About = () => {
           <h3 className="text-white text-3xl sm:text-4xl font-extrabold">Beyond Engagement</h3>
         </div>
         <img
-          src="/images/Gradients.svg"
-          alt=""
+          src="/images/colorful-heart.png"
+          alt="Colorful Heart"
           width="183"
           height="345"
           sizes="100vw"
-          className="md:h-[350px] md:w-[800px]"
+          // className="w-full max-w-40 sm:max-w-48 md:max-w-60 lg:max-w-64 xl:max-w-72 drop-shadow-[0_0_5px_rgba(34,197,94,0.7)]"
+          className="w-full max-w-40 sm:max-w-48 md:max-w-60 lg:max-w-64 xl:max-w-72 drop-shadow-[0_0_5px_rgba(255,255,255,0.7)]"
         />
       </div>
       <div className="flex flex-col gap-6 lg:gap-12">
         <div className="flex max-w-lg flex-col gap-4">
           <h3 className="text-white text-3xl sm:text-4xl font-semibold tracking-tight">
-            Revolutionizing Film Funding with Ordinals and Runes
+            Tokenize Art into Asset-backed
+            NFTs to Realize their Latent
+            Liquidity
           </h3>
           <h4 className="text-lg font-normal tracking-tight text-slate-500">
-            At the heart of Tezuka lies a bold vision to revolutionize the way films are funded and brought to life. We believe that the power of community, combined with the innovative capabilities of Bitcoin&apos;s Ordinals and Runes, can unlock new avenues for filmmakers to connect with their audience and secure the resources they need to turn their creative visions into reality.
+            Tezuka is a DeFi platform that aims to tokenize real-world assets with its cutting-edge technology. It
+            benefits both investors and asset owners by empowering them to trade assets on a decentralized
+            exchange, which provides increased accessibility and liquidity.
           </h4>
         </div>
         <div className="grid w-full grid-flow-row justify-items-start gap-12 md:grid-cols-2 xl:gap-x-32">
@@ -38,8 +43,8 @@ const About = () => {
             </svg>
             <div
               className="flex max-w-[280px] flex-col items-center gap-4 text-center md:items-start md:gap-6 md:text-start">
-              <p className="text-white text-xl font-semibold tracking-tight">Community-Driven Approach</p>
-              <p className="text-slate-500">Tezuka empowers filmmakers to engage directly with their audience, fostering a collaborative environment for film development and funding.
+              <p className="text-gray-100 text-xl font-semibold tracking-tight">Community-Driven Approach</p>
+              <p className="text-gray-400">Tezuka empowers filmmakers to engage directly with their audience, fostering a collaborative environment for film development and funding.
               </p>
             </div>
           </div>
@@ -52,8 +57,8 @@ const About = () => {
             </svg>
             <div
               className="flex max-w-[280px] flex-col items-center gap-4 text-center md:items-start md:gap-6 md:text-start">
-              <p className="text-white text-xl font-semibold tracking-tight">Ordinal-Based Tokens</p>
-              <p className="text-slate-500">
+              <p className="text-gray-100 text-xl font-semibold tracking-tight">Ordinal-Based Tokens</p>
+              <p className="text-gray-400">
                 Leverage the unique capabilities of Bitcoin Ordinals to create and distribute digital tokens that represent ownership or access to your film projects.
               </p>
             </div>
@@ -71,8 +76,8 @@ const About = () => {
             </svg>
             <div
               className="flex max-w-[280px] flex-col items-center gap-4 text-center md:items-start md:gap-6 md:text-start">
-              <p className="text-white text-xl font-semibold tracking-tight">Rune-Powered Fundraising</p>
-              <p className="text-slate-500">
+              <p className="text-gray-100 text-xl font-semibold tracking-tight">Rune-Powered Fundraising</p>
+              <p className="text-gray-400">
                 Utilize the versatility of Bitcoin Runes to design and execute sophisticated fundraising campaigns, unlocking new avenues for film financing.
               </p>
             </div>
@@ -88,8 +93,8 @@ const About = () => {
             </svg>
             <div
               className="flex max-w-[280px] flex-col items-center gap-4 text-center md:items-start md:gap-6 md:text-start">
-              <p className="text-white text-xl font-semibold tracking-tight">Secure and Transparent</p>
-              <p className="text-slate-500">
+              <p className="text-gray-100 text-xl font-semibold tracking-tight">Secure and Transparent</p>
+              <p className="text-gray-400">
                 Tezuka operates on the robust and decentralized Bitcoin blockchain, ensuring the safety and transparency of all transactions.
               </p>
             </div>
