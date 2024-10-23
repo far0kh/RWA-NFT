@@ -3,25 +3,109 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
   }
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* SubscribeForn */
+.csw-theme-orange {
+  /* background: linear-gradient(140deg, #f9cb28, #ff4d4d); */
+  /* border-style: none; */
+  padding: 2px;
+  color: rgb(255 255 255);
+}
+
+.csw-theme-orange-input {
+  border-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: rgb(0 0 0) !important;
+  color: rgb(255 255 255) !important;
+}
+
+.custom-substack-widget {
+  display: inline-flex;
+  height: auto;
+  width: 100%;
+  max-width: 384px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  border-radius: 4px;
+  border-width: 2px;
+  padding: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.custom-substack-widget,
+.custom-substack-widget+* {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+}
+
+
+
+.custom-substack-widget input {
+  background-color: var(--csw-input-color);
+  color: var(--csw-input-text-color);
+  width: 100%;
+  min-width: 0;
+  flex: 1 1 170px;
+  flex-shrink: 1;
+  padding: 10px 12px 10px 16px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.custom-substack-widget button,
+.custom-substack-widget input {
+  margin: 0;
+  height: auto;
+  border-style: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.custom-substack-widget button,
+.custom-substack-widget input {
+  margin: 0;
+  height: auto;
+  border-style: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.custom-substack-widget button {
+  color: var(--csw-text-color);
+  background-color: var(--csw-primary-color);
+  flex: 1 1 0%;
+  cursor: pointer;
+  justify-content: center;
+  white-space: nowrap;
+  padding: 10px 16px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
 }
