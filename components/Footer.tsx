@@ -39,8 +39,7 @@ const Footer = () => {
           <div className="flex w-full flex-col items-center gap-2 text-center lg:flex-row lg:items-center lg:gap-0 lg:text-left">
             <div className="m-auto lg:w-full">
               <div className="flex items-center">
-                <img src="/images/logo.webp" className="mr-1 h-7" alt="Tezuka Logo" />
-                <span className="self-center text-md font-semibold whitespace-nowrap dark:text-white">Tezuka</span>
+                <img src="/logo-wide.webp" className="mr-1 h-9" alt="Tezuka Logo" />
               </div>
             </div>
             <div className="m-auto lg:w-full text-end">

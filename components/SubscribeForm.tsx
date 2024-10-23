@@ -53,12 +53,12 @@ const SubscribeForm = () => {
       <form onSubmit={handleSubmit}>
         <div className="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
           <div className="relative w-full">
-            <div className='custom-substack-widget csw-theme-orange bg-orange-500 border-orange-500'>
+            <div className='custom-substack-widget csw-theme bg-green-500 border-green-500'>
               <input
                 type="email"
                 name="email"
                 required
-                className="custom-substack-widget csw-theme-orange-input"
+                className="custom-substack-widget csw-theme-input"
                 placeholder="example@gmail.com"
                 onChange={(e) => setEmail(e.target.value)}
                 value={email}

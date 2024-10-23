@@ -35,7 +35,7 @@ const Blog = () => {
               <p className="mt-3 text-gray-800 dark:text-neutral-200">
                 A New Standard in Bitcoin Tokenization
               </p>
-              <p className="mt-5 inline-flex items-center gap-x-1 text-orange-500 decoration-2 group-hover:underline font-medium">
+              <p className="mt-5 inline-flex items-center gap-x-1 text-green-500 decoration-2 group-hover:underline font-medium">
                 Read more
                 <FaAngleRight />
               </p>
@@ -62,7 +62,7 @@ const Blog = () => {
               <p className="mt-3 text-gray-800 dark:text-neutral-200">
                 The Challenges of Traditional Film Fundraising
               </p>
-              <p className="mt-5 inline-flex items-center gap-x-1 text-orange-500 decoration-2 group-hover:underline font-medium">
+              <p className="mt-5 inline-flex items-center gap-x-1 text-green-500 decoration-2 group-hover:underline font-medium">
                 Read more
                 <FaAngleRight />
               </p>
