@@ -45,7 +45,7 @@ const About = () => {
               className="flex max-w-[280px] flex-col items-center gap-4 text-center md:items-start md:gap-6 md:text-start">
               <p className="text-gray-100 text-xl font-semibold tracking-tight">Community-Driven Innovation</p>
               <p className="text-gray-400">
-                Tezuka fosters a vibrant community of users and creators who contribute to the platform's evolution. By prioritizing user feedback and engaging with stakeholders, Tezuka continually enhances its offerings, ensuring that it meets the ever-changing needs of the market.
+                Tezuka fosters a vibrant community of users and creators who contribute to the platform&apos;s evolution. By prioritizing user feedback and engaging with stakeholders, Tezuka continually enhances its offerings, ensuring that it meets the ever-changing needs of the market.
               </p>
             </div>
           </div>
@@ -96,7 +96,7 @@ const About = () => {
               className="flex max-w-[280px] flex-col items-center gap-4 text-center md:items-start md:gap-6 md:text-start">
               <p className="text-gray-100 text-xl font-semibold tracking-tight">Enhanced Liquidity and Accessibility</p>
               <p className="text-gray-400">
-                Tezuka's DeFi model increases liquidity for real-world assets, allowing users to trade with ease. This accessibility not only democratizes the art market but also attracts a diverse range of investors looking to diversify their portfolios.
+                Tezuka&apos;s DeFi model increases liquidity for real-world assets, allowing users to trade with ease. This accessibility not only democratizes the art market but also attracts a diverse range of investors looking to diversify their portfolios.
               </p>
             </div>
           </div>
