@@ -18,7 +18,7 @@ const Header = () => {
             <a
               type="button"
               href='https://waitlist.tezuka.xyz'
-              className="text-white bg-green-600 hover:bg-green-700 focus:ring-4 focus:outline-none focus:ring-green-700 rounded-lg text-sm font-semibold px-4 py-2 text-center"
+              className="text-white bg-green-600 hover:bg-green-700 focus:ring-4 focus:outline-none focus:ring-green-700 rounded-lg text-base font-semibold px-4 py-2 text-center"
             >
               Join Waitlist
             </a>

@@ -25,10 +25,10 @@ const Hero = () => {
             <div className="flex gap-4">
               <a
                 href="https://waitlist.tezuka.xyz"
-                className="group inline-flex items-center justify-center whitespace-nowrap rounded-lg py-2 align-middle text-sm font-semibold leading-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed text-white bg-green-600 hover:bg-green-700 h-[38px] min-w-[38px] gap-2 disabled:bg-slate-100 disabled:stroke-slate-400 disabled:text-slate-400 disabled:hover:bg-slate-100 px-4"
+                className="group inline-flex items-center justify-center whitespace-nowrap rounded-lg py-2 align-middle text-base font-semibold leading-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed text-white bg-green-600 hover:bg-green-700 h-[38px] min-w-[38px] gap-2 disabled:bg-slate-100 disabled:stroke-slate-400 disabled:text-slate-400 disabled:hover:bg-slate-100 px-4"
               >
                 <span>Join our limited waitlist</span>
-                <TbFlame size={23} />
+                <TbFlame size={25} />
               </a>
               {/* <button type="button"
                     className="group inline-flex items-center justify-center whitespace-nowrap rounded-lg py-2 align-middle text-sm font-semibold leading-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed stroke-[#22c55e] px-2 text-[#22c55e] h-[42px] min-w-[42px] gap-2 disabled:stroke-slate-400 disabled:text-slate-400 hover:stroke-blue-950 hover:text-blue-950">
