@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className="pt-24">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-        <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2 mt-12 md:mt-0" dir="rtl">
+        <div className="grid items-center grid-cols-1 lg:grid-cols-2 gap-0 lg:gap-12 mt-12 md:mt-0" dir="rtl">
           <div className='flex justify-center'>
             <img className="w-full max-w-lg" src="/images/artwork.webp" alt="Artwork NFT" />
           </div>
