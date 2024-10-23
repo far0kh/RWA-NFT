@@ -6,20 +6,21 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "Community Driven Film Tokens on Bitcoin",
+    default: "NFTs for Real-World Arts",
     template: `%s | Tezuka`,
   },
   metadataBase: new URL("https://www.tezuka.xyz/"),
-  description: "Revolutionizing Film Funding with Ordinals and Runes",
+  description: "Tokenize Art into Asset-backed NFTs to Realize their Latent Liquidity",
   keywords: [
+    "Tezuka",
+    "Art",
+    "Artwork",
+    "Blockchain",
     "Bitcoin",
-    "Rune",
-    "Ordinal",
-    "Cinema",
-    "Movie",
-    "Film",
-    "Crowdfunding",
-    "Fundraising",
+    "Ethereum",
+    "NFTs",
+    "NFT",
+    "RWA"
   ],
   // authors: [
   //   {
@@ -32,8 +33,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_GB",
     url: "https://www.tezuka.xyz/",
-    title: "Community Driven Film Tokens on Bitcoin",
-    description: "Revolutionizing Film Funding with Ordinals and Runes",
+    title: "NFTs for Real-World Arts",
+    description: "Tokenize Art into Asset-backed NFTs to Realize their Latent Liquidity",
     siteName: "Tezuka",
     images: [
       {
@@ -47,7 +48,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Tezuka",
-    description: "Revolutionizing Film Funding with Ordinals and Runes",
+    description: "NFTs for Real-World Arts",
     images: [`/og.png`],
     creator: "@tezuka_xyz",
   },
