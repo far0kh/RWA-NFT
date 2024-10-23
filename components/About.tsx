@@ -8,7 +8,7 @@ const About = () => {
     >
       <div className="flex w-full min-w-full max-w-lg flex-1 items-center justify-center rounded-2xl lg:min-w-[370px]">
         <div className="flex max-w-lg flex-col gap-4">
-          <h3 className="text-white text-3xl sm:text-4xl font-extrabold">Beyond Expectation</h3>
+          <h3 className="text-white text-3xl sm:text-4xl font-extrabold">Beyond <br /> Expectation</h3>
         </div>
         <img
           src="/images/colorful-heart.png"
