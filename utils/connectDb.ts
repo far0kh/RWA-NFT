@@ -1,6 +1,6 @@
 import mongoose, { Mongoose } from "mongoose";
 
-const MONGODB_URL = process.env.MONGODB_URL!;
+const MONGODB_URL = process.env.DATABASE_URL!;
 
 interface MongooseConn {
   conn: Mongoose | null;
@@ -23,7 +23,7 @@ export const connectToDb = async () => {
     cached.promise =
       cached.promise ||
       mongoose.connect(MONGODB_URL, {
-        dbName: "subscribe",
+        dbName: "tezuka-subscribe",
         bufferCommands: false,
         connectTimeoutMS: 30000,
       });
