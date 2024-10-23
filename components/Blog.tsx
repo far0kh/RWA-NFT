@@ -28,7 +28,7 @@ const Blog = () => {
       <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
         <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
           <h2 className="text-4xl font-extrabold leading-tight tracking-tight text-white mt-14 md:mt-0">
-            Blog
+            New Blogs
           </h2>
           <p className="mt-1 text-lg font-normal tracking-tight text-slate-500">
             Stay in the know with insights from industry experts.

@@ -40,7 +40,7 @@ const Roadmap = () => {
           {roadmap.map((item, index) => (
             <li key={index} className="my-10 ms-4">
               <div className="absolute w-10 h-10 rounded-full -start-5 border border-green-900 bg-green-700"></div>
-              <time className="text-sm font-normal leading-none text-black">{item.phase}</time>
+              <time className="-ms-4 z-50 text-sm font-normal leading-none text-black">{item.phase}</time>
               <h3 className="text-lg font-semibold text-white mt-5">{item.title}</h3>
               <p className="text-base font-normal text-gray-400">{item.desc}</p>
             </li>
