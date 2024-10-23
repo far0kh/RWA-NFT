@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <section className="antialiased w-full" id="Footer">
-      <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:pt-16 lg:pt-24">
+      <div className="max-w-screen-xl mx-auto px-4 lg:px-6 pb-2 pt-8 sm:pt-16 lg:pt-24">
         {/* <div className="max-w-3xl mx-auto text-center pb-5">
           <div className="flex gap-8 justify-center items-center">
             <a
@@ -34,7 +34,7 @@ const Footer = () => {
             </a>
           </div>
         </div> */}
-        <div className="bg-slate-500 my-4 w-full h-[1px] hidden lg:block"></div>
+        {/* <div className="bg-slate-500 my-4 w-full h-[1px] hidden lg:block"></div> */}
         <div className="mx-auto text-center">
           <div className="flex w-full flex-col items-center gap-2 text-center lg:flex-row lg:items-center lg:gap-0 lg:text-left">
             <div className="m-auto lg:w-full">

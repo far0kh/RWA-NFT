@@ -8,7 +8,7 @@ const About = () => {
     >
       <div className="flex w-full min-w-full max-w-lg flex-1 items-center justify-center rounded-2xl lg:min-w-[370px]">
         <div className="flex max-w-lg flex-col gap-4">
-          <h3 className="text-white text-3xl sm:text-4xl font-extrabold">Beyond Engagement</h3>
+          <h3 className="text-white text-3xl sm:text-4xl font-extrabold">Beyond Expectation</h3>
         </div>
         <img
           src="/images/colorful-heart.png"
@@ -33,7 +33,7 @@ const About = () => {
             exchange, which provides increased accessibility and liquidity.
           </h4>
         </div>
-        <div className="grid w-full grid-flow-row justify-items-start gap-12 md:grid-cols-2 xl:gap-x-32">
+        <div className="grid w-full grid-flow-row justify-items-start gap-12 md:grid-cols-2 gap-x-6">
           <div className="flex w-full flex-col items-center gap-6 md:max-w-[280px] md:items-start">
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="40" height="40"
               viewBox="-5.0 -10.0 110.0 135.0">
@@ -43,8 +43,9 @@ const About = () => {
             </svg>
             <div
               className="flex max-w-[280px] flex-col items-center gap-4 text-center md:items-start md:gap-6 md:text-start">
-              <p className="text-gray-100 text-xl font-semibold tracking-tight">Community-Driven Approach</p>
-              <p className="text-gray-400">Tezuka empowers filmmakers to engage directly with their audience, fostering a collaborative environment for film development and funding.
+              <p className="text-gray-100 text-xl font-semibold tracking-tight">Community-Driven Innovation</p>
+              <p className="text-gray-400">
+                Tezuka fosters a vibrant community of users and creators who contribute to the platform's evolution. By prioritizing user feedback and engaging with stakeholders, Tezuka continually enhances its offerings, ensuring that it meets the ever-changing needs of the market.
               </p>
             </div>
           </div>
@@ -57,9 +58,9 @@ const About = () => {
             </svg>
             <div
               className="flex max-w-[280px] flex-col items-center gap-4 text-center md:items-start md:gap-6 md:text-start">
-              <p className="text-gray-100 text-xl font-semibold tracking-tight">Ordinal-Based Tokens</p>
+              <p className="text-gray-100 text-xl font-semibold tracking-tight">Empowering Artists and Owners</p>
               <p className="text-gray-400">
-                Leverage the unique capabilities of Bitcoin Ordinals to create and distribute digital tokens that represent ownership or access to your film projects.
+                By providing a decentralized exchange, Tezuka empowers artists and asset owners to reach a global audience. This platform allows them to showcase their work and connect with potential investors, creating new revenue streams and opportunities for collaboration.
               </p>
             </div>
           </div>
@@ -76,9 +77,9 @@ const About = () => {
             </svg>
             <div
               className="flex max-w-[280px] flex-col items-center gap-4 text-center md:items-start md:gap-6 md:text-start">
-              <p className="text-gray-100 text-xl font-semibold tracking-tight">Rune-Powered Fundraising</p>
+              <p className="text-gray-100 text-xl font-semibold tracking-tight">Revolutionary Asset Tokenization</p>
               <p className="text-gray-400">
-                Utilize the versatility of Bitcoin Runes to design and execute sophisticated fundraising campaigns, unlocking new avenues for film financing.
+                Tezuka employs innovative technology to seamlessly tokenize real-world assets, transforming how art and collectibles are traded. This process enhances transparency and traceability, ensuring that every transaction is secure and verifiable.
               </p>
             </div>
           </div>
@@ -93,9 +94,9 @@ const About = () => {
             </svg>
             <div
               className="flex max-w-[280px] flex-col items-center gap-4 text-center md:items-start md:gap-6 md:text-start">
-              <p className="text-gray-100 text-xl font-semibold tracking-tight">Secure and Transparent</p>
+              <p className="text-gray-100 text-xl font-semibold tracking-tight">Enhanced Liquidity and Accessibility</p>
               <p className="text-gray-400">
-                Tezuka operates on the robust and decentralized Bitcoin blockchain, ensuring the safety and transparency of all transactions.
+                Tezuka's DeFi model increases liquidity for real-world assets, allowing users to trade with ease. This accessibility not only democratizes the art market but also attracts a diverse range of investors looking to diversify their portfolios.
               </p>
             </div>
           </div>
