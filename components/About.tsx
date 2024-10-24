@@ -1,39 +1,40 @@
 import React from 'react'
+import { TbFlame } from 'react-icons/tb'
 
 const About = () => {
   return (
-    <section
-      id="About"
-      className="flex flex-col gap-6 text-center md:text-start lg:flex-row lg:gap-16 xl:gap-32 max-w-screen-2xl m-auto w-full px-3 sm:px-8 lg:px-16 xl:px-32 py-8 sm:py-16 lg:py-24"
-    >
-      <div className="flex w-full min-w-full max-w-lg flex-1 items-center justify-center rounded-2xl lg:min-w-[370px]">
-        <div className="flex max-w-lg flex-col gap-4">
-          <h3 className="text-white text-3xl sm:text-4xl font-extrabold">Beyond <br /> Expectation</h3>
+    <section id="About" className='pt-24'>
+      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="grid items-center grid-cols-1 lg:grid-cols-2 gap-0 lg:gap-2 mt-12 md:mt-0">
+          <div className="flex flex-row items-center justify-start lg:justify-center gap-4 pb-8">
+            <h3 className="text-white text-3xl sm:text-4xl font-extrabold">Beyond <br /> Expectation</h3>
+            <img
+              src="/images/colorful-heart.png"
+              alt="Colorful Heart"
+              width="183"
+              height="345"
+              sizes="100vw"
+              // className="w-full max-w-40 sm:max-w-48 md:max-w-60 lg:max-w-64 xl:max-w-72 drop-shadow-[0_0_5px_rgba(34,197,94,0.7)]"
+              className="w-full max-w-40 sm:max-w-48 md:max-w-60 lg:max-w-64 xl:max-w-72 drop-shadow-[0_0_5px_rgba(255,255,255,0.7)]"
+            />
+          </div>
+          <div className="flex flex-col items-center justify-center max-w-lg gap-4">
+            <h3 className="text-white text-3xl sm:text-4xl font-semibold tracking-tight">
+              Tokenize Art into Asset-backed
+              NFTs to Realize their Latent
+              Liquidity
+            </h3>
+            <h4 className="text-lg font-normal tracking-tight text-slate-500">
+              Tezuka is a DeFi platform that aims to tokenize real-world assets with its cutting-edge technology. It
+              benefits both investors and asset owners by empowering them to trade assets on a decentralized
+              exchange, which provides increased accessibility and liquidity.
+            </h4>
+          </div>
         </div>
-        <img
-          src="/images/colorful-heart.png"
-          alt="Colorful Heart"
-          width="183"
-          height="345"
-          sizes="100vw"
-          // className="w-full max-w-40 sm:max-w-48 md:max-w-60 lg:max-w-64 xl:max-w-72 drop-shadow-[0_0_5px_rgba(34,197,94,0.7)]"
-          className="w-full max-w-40 sm:max-w-48 md:max-w-60 lg:max-w-64 xl:max-w-72 drop-shadow-[0_0_5px_rgba(255,255,255,0.7)]"
-        />
       </div>
-      <div className="flex flex-col gap-6 lg:gap-12">
-        <div className="flex max-w-lg flex-col gap-4">
-          <h3 className="text-white text-3xl sm:text-4xl font-semibold tracking-tight">
-            Tokenize Art into Asset-backed
-            NFTs to Realize their Latent
-            Liquidity
-          </h3>
-          <h4 className="text-lg font-normal tracking-tight text-slate-500">
-            Tezuka is a DeFi platform that aims to tokenize real-world assets with its cutting-edge technology. It
-            benefits both investors and asset owners by empowering them to trade assets on a decentralized
-            exchange, which provides increased accessibility and liquidity.
-          </h4>
-        </div>
-        <div className="grid w-full grid-flow-row justify-items-start gap-12 md:grid-cols-2 gap-x-6">
+
+      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 pt-24">
+        <div className="grid w-full grid-flow-row justify-items-start gap-12 md:grid-cols-2 lg:grid-cols-4 gap-x-10">
           <div className="flex w-full flex-col items-center gap-4 md:max-w-[280px] md:items-start">
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="50" height="50"
               viewBox="-5.0 -10.0 110.0 135.0">
@@ -67,8 +68,6 @@ const About = () => {
           <div className="flex w-full flex-col items-center gap-4 md:max-w-[280px] md:items-start">
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
               width="50" height="50" viewBox="0 0 100 125"
-            // style="enable-background:new 0 0 100 100;"
-            // xml:space="preserve"
             >
               <path d="M41.797,64.596L38,68.214l-3.797-3.618L38,59.173L41.797,64.596z" />
               <path
@@ -84,8 +83,6 @@ const About = () => {
             </div>
           </div>
           <div className="flex w-full flex-col items-center gap-4 md:max-w-[280px] md:items-start">
-
-            {/* <?xml version="1.0" ?> */}
             <svg width="40" height="40" viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg">
               <path
