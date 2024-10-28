@@ -3,8 +3,8 @@ import { TbFlame } from "react-icons/tb";
 
 const Hero = () => {
   return (
-    <section className="pt-24">
-      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <section id="Hero" className="antialiased w-full pt-24 md:pt-32">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid items-center grid-cols-1 lg:grid-cols-2 gap-0 lg:gap-12 mt-12 md:mt-0" dir="rtl">
           <div className='flex justify-center'>
             <img className="w-full max-w-lg" src="/images/artwork.webp" alt="Artwork NFT" />
@@ -12,7 +12,8 @@ const Hero = () => {
 
           <div dir="ltr">
             <h1 className="text-5xl font-bold text-white mt-6 lg:mt-10 sm:text-6xl md:text-7xl lg:text-[5rem] xl:text-8xl">
-              NFTs for Real-World Arts
+              NFTs for <br /> Real-World <br />
+              <span className='text-green-500'>Arts</span>
             </h1>
             <p className="mt-6 text-base text-slate-500 lg:mt-10 sm:text-xl">
               Blockchain technology has provided some relief to art

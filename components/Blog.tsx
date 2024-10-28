@@ -24,8 +24,8 @@ const Blog = () => {
   ]
 
   return (
-    <section className="antialiased w-full" id="Blog">
-      <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
+    <section id="Blog" className="antialiased w-full pt-24 md:pt-32">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
           <h2 className="text-4xl font-extrabold leading-tight tracking-tight text-white mt-14 md:mt-0">
             New Blogs

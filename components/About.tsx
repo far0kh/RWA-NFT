@@ -3,8 +3,8 @@ import { TbFlame } from 'react-icons/tb'
 
 const About = () => {
   return (
-    <section id="About" className='pt-24'>
-      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <section id="About" className='antialiased w-full pt-24 md:pt-32'>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid items-center grid-cols-1 lg:grid-cols-2 gap-0 lg:gap-2 mt-12 md:mt-0">
           <div className="flex flex-row items-center justify-start lg:justify-center gap-4 pb-8">
             <h3 className="text-white text-3xl sm:text-4xl font-extrabold">Beyond <br /> Expectation</h3>

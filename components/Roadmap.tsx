@@ -29,8 +29,8 @@ const Roadmap = () => {
     },
   ]
   return (
-    <section className="antialiased" id="Roadmap">
-      <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
+    <section id="Roadmap" className="antialiased w-auto pt-24 md:pt-32">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-4xl font-extrabold leading-tight tracking-tight text-white mt-14 md:mt-0">
             Roadmap
