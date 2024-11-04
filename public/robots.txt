@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://jamesshopland.com
+Host: https://www.tezuka.xyz/
 
 # Sitemaps
-Sitemap: https://jamesshopland.com/sitemap.xml
+Sitemap: https://www.tezuka.xyz/sitemap.xml
